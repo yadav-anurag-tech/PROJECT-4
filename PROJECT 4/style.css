@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+* {
+    font-family: 'pacifico';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar  */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10%;
+}
+
+.navbar-container img {
+    cursor: pointer;
+    padding: 10px 0px;
+    height: 70px;
+}
+
+.grow-list {
+    list-style: none;
+}
+
+.list li {
+    position: relative;
+    right: 80px;
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.list-item {
+    font-weight: lighter;
+    color: rgb(192, 181, 181);
+}
+
+.list-item:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.button-group .nav-button {
+    border: 2px solid #7475da;
+    background-color: #7475da;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* banner */
+.banner-container {
+    display: flex;
+
+}
+
+.banner-container img {
+    margin-left: 130px;
+    height: 450px;
+    /* width: 540px; */
+}
+
+.heading-text {
+    font-size: 70px;
+    margin-left: 110px;
+    width: 300px;
+}
+
+span {
+    color: #7475da;
+}
+
+.description {
+    color: rgb(192, 181, 181);
+    margin-left: 110px;
+    padding: 40px 0px;
+}
+
+.btn {
+    margin-left: 110px;
+    border: 2px solid #7475da;
+    background-color: #7475da;
+    padding: 10px 50px;
+    border-radius: 10px;
+    color: white;
+}
